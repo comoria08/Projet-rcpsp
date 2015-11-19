@@ -19,14 +19,6 @@ using namespace std;
 
 
 int main(){
-	/*ifstream ific(az.c_str(), ios::in);
-	if(ific==0)
-	{
-		cerr << "Impossible d'ouvrir le fichier !" << endl;
-	}
-
-	string stream = "0";
-	while()
-	*/
+	Parser a("j301_1.sm");
 	return 0;
 }
