@@ -20,5 +20,6 @@ using namespace std;
 
 int main(){
 	Parser a("j301_1.sm");
+	cout<<a.jobs;
 	return 0;
 }
