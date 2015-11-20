@@ -9,6 +9,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <ilcplex/ilocplex.h>
 
 
 #include "Parser.h"
