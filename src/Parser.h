@@ -17,8 +17,8 @@ using namespace std;
 class Parser {
 public:
 	int jobs, horizon, renewable, nonrenewable, doubly_constrained, rel_dat, due_date, tard_cost, MPM_Time;
-	vector< vector<int> > successor;
-	vector< vector<int> > duration;
+	vector< vector<int> > successor,requests;
+	vector<int> duration,resource;
 	Parser(string filename);
 	virtual ~Parser();
 	void initialize();
